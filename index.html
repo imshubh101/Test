@@ -132,7 +132,7 @@
 
   yesBtn.addEventListener("click", () => {
     if (!confirmStep) {
-      textElement.innerHTML = "Are you really sure? 😳";
+      textElement.innerHTML = "Think again, last chance";
       confirmStep = true;
       return;
     }
@@ -142,7 +142,7 @@
     yesBtn.style.display = "none";
     noBtn.style.display = "none";
 
-    message.innerHTML = `YAYYY ${HER_NAME}! 🎉💖 <br> This is officially my best decision ever 😌`;
+    message.innerHTML = `YAYYY ${HER_NAME}! 🎉💖 <br> You are late, Meri market value badh gayi h ab 😌`;
     message.style.display = "block";
 
     // Confetti
